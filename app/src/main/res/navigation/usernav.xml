@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/usernav"
+    app:startDestination="@id/personDetails">
+
+    <fragment
+        android:id="@+id/personDetails"
+        android:name="com.example.youtubetutorialone.PersonDetails"
+        android:label="fragment_person_details"
+        tools:layout="@layout/fragment_person_details" />
+    <fragment
+        android:id="@+id/personCars"
+        android:name="com.example.youtubetutorialone.PersonCars"
+        android:label="fragment_person_cars"
+        tools:layout="@layout/fragment_person_cars" />
+    <fragment
+        android:id="@+id/personDocuments"
+        android:name="com.example.youtubetutorialone.PersonDocuments"
+        android:label="fragment_person_documents"
+        tools:layout="@layout/fragment_person_documents" />
+</navigation>
